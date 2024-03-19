@@ -1,0 +1,6 @@
+Student ID: 42891
+First Name: Piotr
+Last Name: Owczarzak
+Gender: male
+Age: 45
+Study Field: tak

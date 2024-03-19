@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+</head>
+<body>
+    <h1>Profil studenta</h1>
+    <form action="/student" method="POST">
+        <p>Numer albumu: <input type="number" name="code"></p>
+        <p>Imię: <input type="text" name="name"></p>
+        <p>Nazwisko: <input type="text" name="lastname"></p>
+        <p>Płeć: 
+            <select name="gender">
+                <option value="male">Mężczyzna</option>
+                <option value="female">Kobieta</option>
+                <option value="other">Inna</option>
+            </select>
+        </p>
+        <p>Wiek: <input type="number" name="age"></p>
+        <p>Kierunek: <input type="text" name="studyField"></p>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
